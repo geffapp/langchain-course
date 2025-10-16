@@ -1,0 +1,13 @@
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables
+ .env
+ .venv
+
+# Exclude a specific file from a generally ignored directory
+!src/main.js
