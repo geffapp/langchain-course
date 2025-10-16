@@ -10,4 +10,4 @@ dist/
  .venv
 
 # Exclude a specific file from a generally ignored directory
-!src/main.js
+!src/main.js.env
