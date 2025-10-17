@@ -11,3 +11,5 @@ dist/
 
 # Exclude a specific file from a generally ignored directory
 !src/main.js.env
+.env
+.env.*
