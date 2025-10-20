@@ -35,6 +35,7 @@ Musk's political activities, views, and statements have made him a polarizing fi
     chain = summary_prompt_template | llm
 
     response = chain.invoke(input={"information": information})
+    #execute LCEL chain. Formats prompt with input then sends to the LLM
     print(response.content)
 
 if __name__ == "__main__":
